@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
+    private float moveSpeed = 7f;
 
     private void Update()
     {
@@ -29,7 +31,7 @@ public class Player : MonoBehaviour
 
         Vector3 moveDir = new Vector3(inputVector.x, 0f, inputVector.y);
 
-        transform.position += moveDir * Time.deltaTime;
+        transform.position += moveDir * Time.deltaTime * moveSpeed;
 
         Debug.Log(inputVector);
     }
