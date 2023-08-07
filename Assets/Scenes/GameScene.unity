@@ -1070,10 +1070,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 334457596560020740, guid: 8efadefdb5ebd0e4fabed6d458b54873,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2596009644503488086, guid: 8efadefdb5ebd0e4fabed6d458b54873,
         type: 3}
       propertyPath: m_Name
       value: ClearCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681907103049200353, guid: 8efadefdb5ebd0e4fabed6d458b54873,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8263331978233396492, guid: 8efadefdb5ebd0e4fabed6d458b54873,
         type: 3}
